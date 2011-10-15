@@ -8,12 +8,8 @@ Prosta implementacja napi-projektu w pythonie.
 
 2. Sposób użycia:
 
-   ./linnapi.py plik_filmu_1 plik_filmu_2 ...
+   ./linnapi.py [plik|folder]
    
-   lub
-   
-   ./linnapi.py /home/user/filmy/*.avi
-
    Napisy zostaną pobrane automatycznie i umieszczone w folderze z filmem.
 
 3. Autor
