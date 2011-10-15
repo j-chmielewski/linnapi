@@ -1,0 +1,21 @@
+Prosta implementacja napi-projektu w pythonie.
+
+1. Instalacja
+
+   Jeśli chcesz używać linnapi z każdego miejsca w systemie:
+   
+   sudo cp linnapi.py /usr/bin/linnapi
+
+2. Sposób użycia:
+
+   ./linnapi.py plik_filmu_1 plik_filmu_2 ...
+   
+   lub
+   
+   ./linnapi.py /home/user/filmy/*.avi
+
+   Napisy zostaną pobrane automatycznie i umieszczone w folderze z filmem.
+
+3. Autor
+
+   she11c0de@github
