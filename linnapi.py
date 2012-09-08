@@ -131,6 +131,7 @@ if __name__ == '__main__':
     
     mFiles = ln.findMovies(searchPath)
     counter = 1
+    successCounter = 0
     for mFile in mFiles:
         print '\n[Downloading file %s/%s]' % (counter, len(mFiles))
         try:
@@ -139,8 +140,12 @@ if __name__ == '__main__':
             print "FAILED"
         else:
             print "OK"
+            successCounter += 1
 
         counter += 1
+
+    if len(mFiles) > 1:
+        print "\nFinished downloading, " + str(successCounter) + "/" + str(len(mFiles)) + " subs found"
 
 
 
