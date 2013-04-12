@@ -49,7 +49,7 @@ def hashFile(name):
 
 class linnapi:
     
-    searchUrl = 'http://www.opensubtitles.org/pl/search22/sublanguageid-pol/moviehash-'
+    searchUrl = 'http://www.opensubtitles.org/pl/search2/sublanguageid-pol/moviehash-'
     downloadUrl = 'http://www.opensubtitles.org/pl/subtitleserve/sub/'
     
     movieIdRegex = '/pl/subtitleserve/sub/(\d+)'
@@ -58,7 +58,7 @@ class linnapi:
     tmpDir = '/tmp/linnapi/'
     
     subsExtensions = ['txt', 'srt', 'sub']
-    movieExtensions = ('avi', 'mpg', 'mpeg', 'mp4', 'mkv', 'rmvb')
+    movieExtensions = ('avi', 'mpg', 'mpeg', 'mp4', 'mkv', 'rmvb', 'ogm')
     
     def fetchSubs(self, path):
         
